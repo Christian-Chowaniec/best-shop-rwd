@@ -1,0 +1,84 @@
+
+.statistic__title {
+  font: normal normal normal 2.25em Raleway;
+  color: var(--main-font-color);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 4em 0;
+}
+
+.statistic_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //justify-content: space-between;
+  //margin-bottom: 4em;
+  @include tablet{
+    flex-direction: initial;
+  }
+}
+
+.statistic_column {
+  margin-bottom: 4em;
+  //width: 100% ;
+  display: flex;
+  //margin: 0 auto;
+  flex-direction: column;
+  @include tablet{
+    display: inline-block;
+
+  }
+  .statistic_circle_one {
+    margin: 0 auto;
+    background-color: $second-color;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .statistic_circle_two {
+    margin: 0 auto;
+    background-color: $first-color;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .statistic_circle_three {
+    margin: 0 auto;
+    background-color: $third-color;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+.statistic_icon {
+  margin-left: 45px;
+
+}
+
+.statistic_number {
+  color: var(--main-font-color);
+  letter-spacing: 6px;
+  font: normal normal 800 20px/24px Raleway;
+  text-align: center;
+  margin: 20px;
+}
+
+.statistic_text {
+  color: $third-font-color;
+  font: normal normal normal 1em Raleway;
+  text-align: center;
+  width: 130px;
+  margin: 0 auto;
+}

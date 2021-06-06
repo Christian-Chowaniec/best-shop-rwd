@@ -1,0 +1,31 @@
+{
+  "name": "ONL_FER_W_08_Sass_RWD",
+  "version": "1.0.0",
+  "description": "![Coders-Lab-1920px-no-background](https://user-images.githubusercontent.com/30623667/104709387-2b7ac180-571f-11eb-9b94-517aa6d501c9.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pozytron/ONL_FER_W_08_Sass_RWD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pozytron/ONL_FER_W_08_Sass_RWD/issues"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "homepage": "https://github.com/pozytron/ONL_FER_W_08_Sass_RWD#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.32.13"
+  }
+}

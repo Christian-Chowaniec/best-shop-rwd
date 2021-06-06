@@ -1,0 +1,111 @@
+header .container {
+  padding: 0 2em 0 2em;
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  box-shadow: 0 3px 6px $first-shadow-color;
+  @include tablet {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-family: 'Raleway', cursive;
+    color: $first-color;
+    font-size: 2em;
+    font-weight: 300;
+    padding: 0.5em;
+    @include tablet {
+      font-size: 3em;
+    }
+  }
+
+  // BURGER STYLES
+  #burger-input {
+    display: none;
+
+    &:checked + #burger-icon .menu-close {
+      display: block;
+    }
+
+    &:checked ~ .navigation {
+      display: block;
+    }
+
+    &:checked + #burger-icon .menu-open {
+      display: none;
+    }
+  }
+
+  #burger-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    //margin: 17px 40px 0 0;
+    z-index: 10;
+    font-size: 2em;
+    padding: 0.5em;
+    color: $first-color;
+
+    @include tablet {
+      display: none;
+    }
+
+    .menu-close {
+      display: none;
+    }
+  }
+
+  // NAVIGATION STYLES
+  .navigation {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 5.5em;
+    left: 0;
+    padding-bottom: 1.5em;
+    background-color: white;
+    box-shadow: 0 15px 10px -15px $first-shadow-color; //----------tu
+    @include tablet {
+      padding-bottom: 0;
+      background-color: transparent;
+      position: static;
+      width: auto;
+      display: block;
+      box-shadow: none;
+    }
+
+    .menu {
+      text-align: center;
+
+      .menu__item {
+        color: $second-font-color;
+        font-weight: bold;
+        padding: 0.9em 0;
+        font-size: 1.5em;
+        letter-spacing: 0.2em;
+        line-height: 1.5em;
+        @include tablet {
+          padding: 2.5em 1.2em;
+          font-size: 0.9em;
+          border-bottom: 4px solid transparent;
+
+          &:hover {
+            background-color: white;
+            cursor: pointer;
+            color: $main-font-color;
+            border-bottom: 4px solid $first-color;
+          }
+          @include desktop {
+            padding: 2.5em 2.5em 2.5em 2.5em;
+          }
+        }
+      }
+
+      @include tablet {
+        display: flex;
+      }
+    }
+  }
+}
