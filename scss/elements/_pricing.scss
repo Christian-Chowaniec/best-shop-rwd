@@ -39,7 +39,7 @@
   margin: 0 1.5em 0 1.5em;
   @include tablet {
     //margin:0;
-    //width: 30%;
+    width: 30%;
   }
 }
 .pricing_basic {
@@ -49,9 +49,11 @@
   justify-content: center;
   width: 100%;
   @include tablet {
-    width: 17em;
+    //width: 17em;
     display: flex;
     flex-direction: column;
+    margin-top: 1em;
+    height: 28em;
     ////width: 25%;
   }
 }
@@ -87,6 +89,7 @@
   color: $second-color;
   @include tablet {
     //margin-bottom: 50px;
+    margin-bottom: 60px;
   }
 }
 
@@ -98,6 +101,9 @@
   width: 75%;
   margin-bottom: 35px;
   @include tablet {
+    //display: flex;
+    //justify-content: center;
+
     margin: 0 auto;
     //margin-bottom: 2em;
   }
@@ -107,7 +113,9 @@
   display: flex;
   justify-content: center;
   font: normal normal normal 14px/41px Open Sans;
-
+@include tablet {
+  margin-bottom: 1em;
+}
 }
 .pricing_checkmark {
   margin-right: 10px;
@@ -145,6 +153,8 @@
     //max-width:400px;
     display: flex;
     flex-direction: column;
+    height: 31em;
+    justify-content: space-evenly;
     //width: 25%;
     //width: 150%;
   }
@@ -199,7 +209,7 @@
   margin: 0 1.5em 0 1.5em;
   @include tablet {
     //margin:0;
-    //width: 30%;
+    width: 30%;
   }
 }
 .pricing_premium {
@@ -211,9 +221,11 @@
   //width: 100%;
   @include tablet {
     //margin-top: 0;
-    width: 17em;
+    //width: 17em;
     display: flex;
     flex-direction: column;
+    height: 28em;
+    justify-content: center;
     ////width: 25%;
     ////min-width: 260px;
     ////max-width:400px;
@@ -251,6 +263,8 @@
   background-color: $third-color;
   color:$main-bg-color;
   margin:-1.5em 0 1.5em 0;
+  @include tablet {
+  }
 }
 
 .pricing_button {
