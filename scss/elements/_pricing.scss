@@ -1,0 +1,259 @@
+/*-------------------------------------------------------PRICING*/
+.pricing {
+  background-color: $main-bg-color;
+  margin-bottom: 5em;
+}
+
+.pricing_main_title {
+  display: flex;
+  justify-content: center;
+  font: normal normal normal 36px/42px Raleway;
+  margin: 1.5em 0 0.5em 0;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  //margin: 0 auto;
+  max-width: 1352px;
+  margin: 0 1em 0 1em;
+  //@media (min-width: 620px) {
+  //  margin: 0 auto;
+  //  display: flex;
+  //  flex-direction: row;
+  //  justify-content: space-around;
+  //
+  //}
+  @include tablet {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    //justify-content: center;
+    //width: 100%;
+  }
+}
+
+/*-----------------------BASIC*/
+.pricing_basic_main{
+  margin: 0 1.5em 0 1.5em;
+  @include tablet {
+    //margin:0;
+    //width: 30%;
+  }
+}
+.pricing_basic {
+  border: 1px solid $second-color;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  @include tablet {
+    width: 17em;
+    display: flex;
+    flex-direction: column;
+    ////width: 25%;
+  }
+}
+.pricing_label{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 35px;
+  @include tablet {
+    margin: 0 auto;
+  }
+
+}
+
+.pricing_title {
+  display: flex;
+  justify-content: center;
+  font: normal normal bold 20px/1px Raleway;
+  margin-top: 50px;
+  @include tablet {
+    margin-top: 1.5em;
+  }
+}
+
+.pricing_number {
+  display: flex;
+  justify-content: center;
+  font: normal normal 300 46px/2px Open Sans;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  color: $second-color;
+  @include tablet {
+    //margin-bottom: 50px;
+  }
+}
+
+.pricing_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 75%;
+  margin-bottom: 35px;
+  @include tablet {
+    margin: 0 auto;
+    //margin-bottom: 2em;
+  }
+}
+
+.pricing_info_line {
+  display: flex;
+  justify-content: center;
+  font: normal normal normal 14px/41px Open Sans;
+
+}
+.pricing_checkmark {
+  margin-right: 10px;
+}
+
+.basic_button {
+  width: 150px;
+  height: 50px;
+  border-radius: 23px;
+  border-style: none;
+  background-color: $second-color;
+  color: $main-bg-color;
+  margin:-1.5em 0 1.5em 0;
+
+}
+
+/*-----------------------PRO*/
+.pricing_pro_main{
+  @include tablet {
+    width: 30%;
+  }
+}
+
+.pricing_pro {
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  //width: 100%;
+  border: 1px solid $first-color;
+  box-shadow:0 0 10px $circle-phone-color;
+  @include tablet {
+    //width:  20em;
+    //width:  100%;
+    //min-width: 260px;
+    //max-width:400px;
+    display: flex;
+    flex-direction: column;
+    //width: 25%;
+    //width: 150%;
+  }
+}
+.pricing_label_pro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  //width: 25%;
+  margin-left: 35px;
+  margin-bottom: 40px;
+  @include tablet {
+    margin: 0 auto;
+  }
+
+}
+
+.pricing_limited_offer {
+  font: normal normal bold 0.7em Raleway;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.pricing_number_pro {
+  display: flex;
+  justify-content: center;
+  font: normal normal 300 46px/2px Open Sans;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: $first-color;
+
+}
+
+.pro_button {
+  width: 150px;
+  height: 50px;
+  border-radius: 23px;
+  border-style: none;
+  background-color: $first-color;
+  color: $main-bg-color;
+  margin-top: -1.5em;
+  @include tablet {
+
+  }
+}
+
+/*-----------------------PRREMIUM*/
+.pricing_premium_main{
+  margin: 0 1.5em 0 1.5em;
+  @include tablet {
+    //margin:0;
+    //width: 30%;
+  }
+}
+.pricing_premium {
+  border: 1px solid $third-color;
+  margin-top: 20px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  //width: 100%;
+  @include tablet {
+    //margin-top: 0;
+    width: 17em;
+    display: flex;
+    flex-direction: column;
+    ////width: 25%;
+    ////min-width: 260px;
+    ////max-width:400px;
+  }
+
+  }
+.pricing_label_premium{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 35px;
+  margin-top: -55px;
+  @include tablet {
+    margin: 0 auto;
+  }
+
+}
+
+.pricing_number_prem {
+  display: flex;
+  justify-content: center;
+  font: normal normal 300 46px/2px Open Sans;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: $third-color;
+}
+
+.premium_button {
+  width: 150px;
+  height: 50px;
+  border-radius: 23px;
+  border-style: none;
+  background-color: $third-color;
+  color:$main-bg-color;
+  margin:-1.5em 0 1.5em 0;
+}
+
+.pricing_button {
+  display: flex;
+  justify-content: center;
+}

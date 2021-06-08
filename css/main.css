@@ -849,4 +849,237 @@ header .container .navigation .menu .menu__item {
   top: 28px;
   width: 265px;
 }
+
+/*-------------------------------------------------------PRICING*/
+.pricing {
+  background-color: #FFFFFF;
+  margin-bottom: 5em;
+}
+
+.pricing_main_title {
+  display: flex;
+  justify-content: center;
+  font: normal normal normal 36px/42px Raleway;
+  margin: 1.5em 0 0.5em 0;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1352px;
+  margin: 0 1em 0 1em;
+}
+@media (min-width: 782px) {
+  .pricing-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/*-----------------------BASIC*/
+.pricing_basic_main {
+  margin: 0 1.5em 0 1.5em;
+}
+.pricing_basic {
+  border: 1px solid #FB3B64;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+@media (min-width: 782px) {
+  .pricing_basic {
+    width: 17em;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.pricing_label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 35px;
+}
+@media (min-width: 782px) {
+  .pricing_label {
+    margin: 0 auto;
+  }
+}
+
+.pricing_title {
+  display: flex;
+  justify-content: center;
+  font: normal normal bold 20px/1px Raleway;
+  margin-top: 50px;
+}
+@media (min-width: 782px) {
+  .pricing_title {
+    margin-top: 1.5em;
+  }
+}
+
+.pricing_number {
+  display: flex;
+  justify-content: center;
+  font: normal normal 300 46px/2px Open Sans;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  color: #FB3B64;
+}
+.pricing_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 75%;
+  margin-bottom: 35px;
+}
+@media (min-width: 782px) {
+  .pricing_info {
+    margin: 0 auto;
+  }
+}
+
+.pricing_info_line {
+  display: flex;
+  justify-content: center;
+  font: normal normal normal 14px/41px Open Sans;
+}
+
+.pricing_checkmark {
+  margin-right: 10px;
+}
+
+.basic_button {
+  width: 150px;
+  height: 50px;
+  border-radius: 23px;
+  border-style: none;
+  background-color: #FB3B64;
+  color: #FFFFFF;
+  margin: -1.5em 0 1.5em 0;
+}
+
+/*-----------------------PRO*/
+@media (min-width: 782px) {
+  .pricing_pro_main {
+    width: 30%;
+  }
+}
+
+.pricing_pro {
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #08A6E4;
+  box-shadow: 0 0 10px #07ACE6;
+}
+@media (min-width: 782px) {
+  .pricing_pro {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.pricing_label_pro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-bottom: 40px;
+}
+@media (min-width: 782px) {
+  .pricing_label_pro {
+    margin: 0 auto;
+  }
+}
+
+.pricing_limited_offer {
+  font: normal normal bold 0.7em Raleway;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.pricing_number_pro {
+  display: flex;
+  justify-content: center;
+  font: normal normal 300 46px/2px Open Sans;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #08A6E4;
+}
+
+.pro_button {
+  width: 150px;
+  height: 50px;
+  border-radius: 23px;
+  border-style: none;
+  background-color: #08A6E4;
+  color: #FFFFFF;
+  margin-top: -1.5em;
+}
+/*-----------------------PRREMIUM*/
+.pricing_premium_main {
+  margin: 0 1.5em 0 1.5em;
+}
+.pricing_premium {
+  border: 1px solid #55DFB4;
+  margin-top: 20px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 782px) {
+  .pricing_premium {
+    width: 17em;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.pricing_label_premium {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 35px;
+  margin-top: -55px;
+}
+@media (min-width: 782px) {
+  .pricing_label_premium {
+    margin: 0 auto;
+  }
+}
+
+.pricing_number_prem {
+  display: flex;
+  justify-content: center;
+  font: normal normal 300 46px/2px Open Sans;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #55DFB4;
+}
+
+.premium_button {
+  width: 150px;
+  height: 50px;
+  border-radius: 23px;
+  border-style: none;
+  background-color: #55DFB4;
+  color: #FFFFFF;
+  margin: -1.5em 0 1.5em 0;
+}
+
+.pricing_button {
+  display: flex;
+  justify-content: center;
+}
 /*# sourceMappingURL=main.css.map */
