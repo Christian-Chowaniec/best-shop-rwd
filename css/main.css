@@ -1108,4 +1108,231 @@ header .container .navigation .menu .menu__item {
   display: flex;
   justify-content: center;
 }
+
+.contact {
+  padding: 1em;
+  background-color: var(--main-bg-color);
+  margin-top: 200px;
+}
+
+.contact_container {
+  margin: 0 auto;
+  max-width: 1352px;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 800px) {
+  .contact_container {
+    display: flex;
+    flex-direction: row;
+    margin: auto 0;
+  }
+}
+
+@media (min-width: 800px) {
+  .contact_left_box {
+    width: 40%;
+    min-width: 22.5em;
+  }
+}
+
+.contact_title {
+  font: normal normal normal 3em Raleway;
+  width: 100%;
+}
+
+.contact_text {
+  font: normal normal normal 1em Open Sans;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.contact_item {
+  display: flex;
+  justify-content: flex-start;
+  font: normal normal 1em Open Sans;
+  color: #A5A5A5;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+@media (min-width: 800px) {
+  .contact_item {
+    flex-direction: row;
+  }
+}
+
+.contact_item_mail {
+  display: flex;
+  margin-left: 0.5em;
+}
+.contact_item_mail p {
+  margin-left: 1em;
+}
+
+.contact_item_phone {
+  display: flex;
+  margin-left: 0.5em;
+}
+.contact_item_phone p {
+  margin-left: 1em;
+}
+
+@media (min-width: 800px) {
+  .contact_right_box {
+    width: 60%;
+  }
+}
+@media (min-width: 1200px) {
+  .contact_right_box {
+    width: 50%;
+  }
+}
+
+.contact_label_title {
+  font: normal normal bold 11px/15px Open Sans;
+  color: #08A6E4;
+  letter-spacing: 3px;
+}
+
+.container-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font: normal normal normal 0.75em Open Sans;
+  color: #707070;
+}
+
+.send-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid #95989A;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  resize: none;
+}
+
+input[type=submit] {
+  width: 226px;
+  height: 57px;
+  background-color: #08A6E4;
+  color: #FFFFFF;
+  box-shadow: 0 0 6px #08A6E4;
+  border-radius: 40px;
+  border-style: none;
+  cursor: pointer;
+  margin-bottom: 100px;
+  font: normal normal bold 13px/18px Open Sans;
+}
+
+.checkbox-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 8px;
+}
+
+.checkbox-div input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.custom-checkbox {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.custom-checkbox .label {
+  font-size: 1.2em;
+  margin: 0 10px;
+}
+
+.custom-checkbox .checkmark {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #95989A;
+  display: inline-block;
+  border-radius: 4px;
+  background: #FFF url(assets/Checkmark.svg) center/1400% no-repeat;
+  transition: background-size 0.2s ease;
+}
+
+.custom-checkbox input:checked + .checkmark {
+  background-size: 60%;
+  transition: background-size 0.25s cubic-bezier(0.7, 0, 0.18, 1.24);
+}
+
+.custom-checkbox input {
+  display: none;
+}
+
+.footer {
+  box-shadow: 0 -5px 40px #00000029;
+  background-color: var(--second-bg-color);
+  margin: 0 auto;
+}
+
+.footer_container {
+  margin: 0 auto;
+  max-width: 1352px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em 0 2em;
+}
+
+.footer_description {
+  font: normal normal normal 11px/15px Open Sans;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+.footer_left {
+  margin-top: 20px;
+}
+
+.footer_right {
+  display: flex;
+  align-items: center;
+}
+
+.footer_twitter {
+  margin-right: 20px;
+}
+
+.nav__logo {
+  color: #08A6E4;
+  font-size: 1.5em;
+  font-weight: 300;
+}
 /*# sourceMappingURL=main.css.map */

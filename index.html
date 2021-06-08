@@ -9,10 +9,12 @@
 
 </head>
 <body>
+
 <header>
     <div class="container">
         <span class="logo">BestShop</span>
         <input class="burger" type="checkbox" id="burger-input"/>
+
         <label id="burger-icon" for="burger-input">
             <i class="fa fa-bars menu-open" aria-hidden="true"></i>
             <i class="fa fa-times menu-close" aria-hidden="true"></i>
@@ -36,7 +38,7 @@
     <h1 class="opening__title">Sell More!</h1>
     <p class="opening__text">Open shop on our platform and increase your sales</p>
     <button type="button" class="opening__button">
-        <p class="opening__button-text">Open your shop</p>
+        <div class="opening__button-text">Open your shop</div>
     </button>
     <div class="opening__bg_image">
         <img class="opening__bg_image-main" src="./assets/Background.png" alt="">
@@ -123,18 +125,13 @@
     </div>
 </section>
 
-
 <section class="pricing">
     <div class="pricing-">
         <h1 class="pricing_main_title">Pricing</h1>
 
         <div class="pricing-container">
 
-
-
-
             <div class="pricing_basic_main">
-
                 <div class="pricing_basic">
                     <div class="pricing_label">
                         <div class="pricing_title">Basic</div>
@@ -169,18 +166,12 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="pricing_button">
                     <button type="button" class="basic_button">Begin</button>
                 </div>
             </div>
 
-
-
-
-
             <div class="pricing_pro_main">
-
                 <div class="pricing_pro">
                     <div class="pricing_label_pro">
                         <div class="pricing_title">Professional</div>
@@ -215,28 +206,14 @@
 
                         </div>
                     </div>
-<!--                    <div class="pricing_button">-->
-<!--                        <button type="button" class="pro_button">Begin</button>-->
-<!--                    </div>-->
                 </div>
-
                 <div class="pricing_button">
                     <button type="button" class="pro_button">Begin</button>
                 </div>
-
-
-
-
             </div>
 
-
-
-
-
             <div class="pricing_premium_main">
-
                 <div class="pricing_premium">
-
                     <div class="pricing_label_premium">
                         <div class="pricing_title">Premium</div>
                         <p class="pricing_number_prem">$60</p>
@@ -269,26 +246,84 @@
                             <p>Full support</p>
                         </div>
                     </div>
-
                 </div>
-
-
-
-
                 <div class="pricing_button">
                     <button type="button" class="premium_button">Begin</button>
                 </div>
-
             </div>
-
-
-
-
-
         </div>
     </div>
+</section>
+
+<section class="contact container">
+    <div class="contact_container">
+
+        <div class="contact_left_box">
+            <h1 class="contact_title">Any questions?</h1>
+            <p class="contact_text">Leave your email address or call us!</p>
+
+            <div class="contact_item">
+                <div class="contact_item_mail">
+                    <img src="assets/Mail_Icon.svg" alt="" class="pricing_checkmark">
+                    <p>info@bestshop.xyz</p>
+                </div>
+
+                <div class="contact_item_phone">
+                    <img src="assets/Phone_Icon.svg" alt="" class="pricing_checkmark">
+                    <p>123 456 789</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="contact_right_box">
+            <form>
+                <label for="name" class="contact_label_title">NAME</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email" class="contact_label_title">E-MAIL</label>
+                <input type="text" id="email" name="email">
+
+                <label class="container-checkbox">I hereby give consent for my personal data included in my
+                    application to be processed for the purposes of the recruitment process under the European
+                    Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons
+                    as of 27 April 2016, with regard to the processing of personal data and on the free movement of
+                    such data, and repealing Directive 95/46/EC (Data Protection Directive)
+
+                    <label class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </label>
+
+                <div class="send-button">
+                    <input type="submit" value="SEND">
+                </div>
+
+            </form>
+        </div>
     </div>
 </section>
+
+<footer class="footer">
+    <div class="footer_container">
+
+        <div class="footer_left">
+            <div class="nav__logo">BestShop</div>
+            <p class="footer_description">© 2019 BestShop LTD, All Rights Reserved</p>
+        </div>
+
+        <div class="footer_right">
+            <a href=""><img src="assets/Twitter.svg" alt="twitter" class="footer_twitter"></a>
+            <a href=""><img src="assets/Facebook.svg" alt="facebook" class="footer_facebook"></a>
+        </div>
+
+    </div>
+</footer>
+
+
+
 
 
 </body>
