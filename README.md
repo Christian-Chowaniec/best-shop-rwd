@@ -1,4 +1,4 @@
-# Pierwsza Responsywna Strona obsłguje PC/Tablety/Smartfony
+# Pierwsza Responsywna Strona obsługuje PC/Tablety/Smartfony
 technologie: html, scss
 
 link na żywo: https://verti-responsiv.netlify.app/
