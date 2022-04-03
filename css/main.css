@@ -1173,7 +1173,7 @@ header .container .navigation .menu .menu__item {
 }
 .calc__select .select__input::after {
   content: "";
-  background-image: url("./assets/Arrow.svg");
+  background-image: url("./assets/keyboard_arrow_down_black_24dp.svg");
   width: 22px;
   height: 22px;
   display: block;
