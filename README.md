@@ -1,13 +1,11 @@
-# Pierwsza Responsywna Strona 
-obsługuje PC/Tablety/Smartfony
+# Projekt BestShop
+
+posiada kalkulator który liczy ile jest do zapłaty, rwd
 
 # Użyte technologie:
 - JavaScript (ES6)
 - HTML
 - CSS/SASS
-
-# link na żywo: 
-https://verti-responsiv.netlify.app/
 
 # Screenshoot
 <img width="918" alt="iecEq6yAmd" src="https://user-images.githubusercontent.com/81171876/161452842-796714e2-c0ea-46e7-a24e-264e55aea1c2.png">
