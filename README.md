@@ -2,8 +2,7 @@
 obsługuje PC/Tablety/Smartfony
 
 # Użyte technologie:
-- JavaScript (ES6)
-- ReactJS (React Router)
+- HTML
 - CSS/SASS
 
 # link na żywo: 
